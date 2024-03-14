@@ -1,4 +1,6 @@
 // Select a player via a dropdown, then get that player's marked targets
+// Taken from:
+// https://github.com/lucky-trill/foundry-macros/blob/main/select-player-targets
 var playerDropdown = "";
 var userArray = Array.from(game.users);
 for (let i = 0; i < userArray.length; i++) {
